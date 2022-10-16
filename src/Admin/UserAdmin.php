@@ -19,6 +19,7 @@ final class UserAdmin extends AbstractAdmin
         ]); 
         
     }
+    
     protected function configurePersistentParameters(): array
     {
         if (!$this->getRequest()) {
